@@ -32,7 +32,24 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 ```
-- Create `.serviceAccountKey.json` in `/RPI-Events` and put in ???
+- Create a new service account (Overview -> Settings -> Service accounts -> Generate new private key), create `.serviceAccountKey.json` in `/RPI-Events`, and put the service account's private key in it
+
+Ex:
+```
+{
+  "type": ...,
+  "project_id": ...,
+  "private_key_id": ...,
+  "private_key": ...,
+  "client_email": ...,
+  "client_id": ...,
+  "auth_uri": ...,
+  "token_uri": ...,
+  "auth_provider_x509_cert_url": ...,
+  "client_x509_cert_url": ...,
+  "universe_domain": ...
+}
+```
 - In `/.env`, add `FIREBASE_SERVICE_ACCOUNT=???` under `MONGODB=<connection string>/RPI-Events`
 5. Build application: In `/RPI-Events`, run `npm run build`
 6. Start application in same directory: `node --env-file=../.env server`. Go to http://localhost:3000
