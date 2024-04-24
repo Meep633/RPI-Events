@@ -1,7 +1,5 @@
-# itws4500-team11
-Vincent Lau, Victoria Cai, Xin Chao Chen, Mrunal Athaley, Siyan Zuhayer
-
-# References:
+# RPI Events
+RPI Events is an RPI event hub where event organizers can create events and users can register for events. RPI Events was made by Vincent Lau ([@vincent31545](https://github.com/vincent31545)), Victoria Cai ([@vicc233](https://github.com/vicc233)), Xin Chao Chen ([@EURICIA](https://github.com/EURICIA)), Mrunal Athaley ([@athalm](https://github.com/athalm)), and Siyan Zuhayer ([@Meep633](https://github.com/Meep633)).
 
 # Resources:
     Code References:
