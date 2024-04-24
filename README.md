@@ -13,6 +13,57 @@ RPI Events is an RPI event hub where event organizers can create events and user
     https://react-bootstrap.netlify.app/docs/components/carousel
     https://www.youtube.com/watch?v=kN7_M4wjDhE
     https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox
+    https://serpapi.com/blog/web-scraping-in-javascript-complete-tutorial-for-beginner/
+    https://serpapi.com/blog/dynamic-scraping-without-libraries/
+    I used these for inspiration on what to search for to make my own scraper
+
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+    https://www.w3schools.com/jsref/jsref_substring.asp
+    https://www.w3schools.com/jsref/jsref_substr.asp
+    https://www.w3schools.com/jsref/jsref_split.asp
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+    https://www.w3schools.com/jsref/jsref_indexof.asp
+    I tried to use these sites to scrape for specific tags after converting the site to html, but i kept getting bugs and I couldn’t figure it out
+    
+    https://www.w3schools.com/jsref/met_document_queryselector.asp
+    https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+    I found out about the query selector and it made scraping so much easier.
+    
+    https://react.dev/reference/react/useEffect
+    https://www.w3schools.com/react/react_useeffect.asp
+    I used this to change the underline in the nav bar
+    
+    https://www.w3schools.com/react/react_usestate.asp
+    I used this to pass variables to dynamically update as the variable updates
+    
+    https://stackoverflow.com/questions/70350025/classlist-not-toggling-in-react
+    I used this to turn divs on and off to get an animation effect
+    
+    https://www.w3schools.com/css/css_pseudo_classes.asp
+    The styling for some default react components were ugly so I needed to overwrite its effects and used this to do it
+    
+    https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
+    https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+    https://www.w3schools.com/jsref/prop_element_classlist.asp
+    I used this to edit classes with logic not involved with state variables
+    
+    https://create-react-app.dev/docs/adding-images-fonts-and-files/
+    I used this to add images to react
+    
+    https://www.w3schools.com/cssref/pr_dim_line-height.php
+    Centering divs was a huge pain and i found this solution
+    
+    
+    https://www.geeksforgeeks.org/reactjs-functional-components/
+    https://www.w3schools.com/react/react_props.asp
+    Passing props from component to component
+    
+    https://developer.mozilla.org/en-US/docs/Web/CSS/calc
+    I used this to smoothen the animation
+    
+    https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+    I used this to call our api
+
 
     Images:
     default_profile.jepg
@@ -30,3 +81,14 @@ RPI Events is an RPI event hub where event organizers can create events and user
 - Firebase
 - MongoDB
 - Azure
+
+# How work was split:
+Siyan: Events page + event info, unregister event endpoint
+
+Xin Chao: Everything firebase, forms
+
+Mrunal: API endpoints (not including firebase)
+
+Vincent: Home page, event cards, navbar
+
+Victoria: Profile page, mockups
