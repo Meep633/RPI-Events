@@ -12,7 +12,7 @@ Node version 20.x.x (install at https://nodejs.org/en)
 4. Recreate Firebase app: 
 - Go to https://console.firebase.google.com/ and create a new project called `rpi-events`
 - Add authentication to the project and add the Email/Password and Google sign-in methods
-- Create `.firebaseConfig.js` in `/RPI-Events/src/FireBase/` and put in the project's config (Overview -> Settings -> Scroll down)
+- Create `.firebaseConfig.js` in `<folder-name>/RPI-Events/src/FireBase/` and put in the project's config (Overview -> Settings -> Scroll down)
 
 Ex:
 ```
@@ -32,7 +32,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 ```
-- Create a new service account (Overview -> Settings -> Service accounts -> Generate new private key), create `.serviceAccountKey.json` in `/RPI-Events`, and put the service account's private key in it
+- Create a new service account (Overview -> Settings -> Service accounts -> Generate new private key), create `.serviceAccountKey.json` in `<folder-name>/RPI-Events`, and put the service account's private key in it
 
 Ex:
 ```
@@ -50,11 +50,11 @@ Ex:
   "universe_domain": ...
 }
 ```
-- Copy the firebase service account string on the same page where you generated the service account (top of page, under "Firebase service account"). In `/.env`, add `FIREBASE_SERVICE_ACCOUNT=<firebase string>` under `MONGODB=<connection string>/RPI-Events`
+- Copy the firebase service account string on the same page where you generated the service account (top of page, under "Firebase service account"). In `<folder-name>/.env`, add `FIREBASE_SERVICE_ACCOUNT=<firebase string>` under `MONGODB=<connection string>/RPI-Events`
 
 Ex:
 ```
 FIREBASE_SERVICE_ACCOUNT=firebase-adminsdk-...@project.iam.gserviceaccount.com
 ```
-5. Build application: In `/RPI-Events`, run `npm run build`
+5. Build application: In `<folder-name>/RPI-Events`, run `npm run build`
 6. Start application in same directory: `node --env-file=../.env server`. Go to http://localhost:3000
