@@ -8,7 +8,7 @@ Node version 20.x.x (install at https://nodejs.org/en)
 2. Install dependencies: `cd <folder-name>/RPI-Events` and `npm i`
 3. Recreate Mongo database: 
 - Go to https://www.mongodb.com/lp/cloud/atlas/try4 and create a new database called `RPI-Events`
-- Create a `.env` file in `<folder-name>` and put in `MONGODB=<connection-string>/RPI-Events`
+- Create a `.env` file in `<folder-name>` and put in `MONGODB=<connection-string>/RPI-Events` (Overview -> Connect -> Drivers)
 4. Recreate Firebase app: 
 - Go to https://console.firebase.google.com/ and create a new project called `rpi-events`
 - Add authentication to the project and add the Email/Password and Google sign-in methods
