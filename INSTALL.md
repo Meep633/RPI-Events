@@ -4,7 +4,7 @@ Node version 20.x.x (install at https://nodejs.org/en)
 
 # Installation
 
-1. Clone repo: `git clone git@github.com:RPI-ITWS/itws4500-team11.git <folder-name>`
+1. Clone repo: `git clone https://github.com/Meep633/RPI-Events.git <folder-name>`
 2. Install dependencies: `cd <folder-name>/RPI-Events` and `npm i`
 3. Recreate Mongo database: 
 - Go to https://www.mongodb.com/lp/cloud/atlas/try4 and create a new database called `RPI-Events`
