@@ -50,6 +50,11 @@ Ex:
   "universe_domain": ...
 }
 ```
-- In `/.env`, add `FIREBASE_SERVICE_ACCOUNT=???` under `MONGODB=<connection string>/RPI-Events`
+- Copy the firebase service account string on the same page where you generated the service account (top of page, under "Firebase service account"). In `/.env`, add `FIREBASE_SERVICE_ACCOUNT=<firebase string>` under `MONGODB=<connection string>/RPI-Events`
+
+Ex:
+```
+FIREBASE_SERVICE_ACCOUNT=firebase-adminsdk-...@project.iam.gserviceaccount.com
+```
 5. Build application: In `/RPI-Events`, run `npm run build`
 6. Start application in same directory: `node --env-file=../.env server`. Go to http://localhost:3000
